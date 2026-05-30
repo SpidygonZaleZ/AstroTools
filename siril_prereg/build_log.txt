@@ -1,0 +1,80 @@
+===== Kompilacja rozpoczęta: 30.05.2026 19:36:08.78 ===== 
+Tworzenie srodowiska venv... 
+Instalacja pakietow... 
+Requirement already satisfied: pip in D:\python\venv\Lib\site-packages (26.1.1)
+WARNING: Cache entry deserialization failed, entry ignored
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+Requirement already satisfied: pyinstaller in D:\python\venv\Lib\site-packages (6.20.0)
+Requirement already satisfied: altgraph in D:\python\venv\Lib\site-packages (from pyinstaller) (0.17.5)
+Requirement already satisfied: packaging>=22.0 in D:\python\venv\Lib\site-packages (from pyinstaller) (26.2)
+Requirement already satisfied: pefile>=2022.5.30 in D:\python\venv\Lib\site-packages (from pyinstaller) (2024.8.26)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2026.4 in D:\python\venv\Lib\site-packages (from pyinstaller) (2026.5)
+Requirement already satisfied: pywin32-ctypes>=0.2.1 in D:\python\venv\Lib\site-packages (from pyinstaller) (0.2.3)
+Requirement already satisfied: setuptools>=42.0.0 in D:\python\venv\Lib\site-packages (from pyinstaller) (82.0.1)
+Budowanie aplikacji... 
+152 INFO: PyInstaller: 6.20.0, contrib hooks: 2026.5
+152 INFO: Python: 3.14.2
+173 INFO: Platform: Windows-10-10.0.19045-SP0
+173 INFO: Python environment: D:\python\venv
+174 INFO: wrote .\siril_prereg.spec
+178 INFO: Module search paths (PYTHONPATH):
+['d:\\astro\\programy\\AstroTools\\siril_prereg',
+ 'C:\\Program Files\\Python314\\python314.zip',
+ 'C:\\Program Files\\Python314\\DLLs',
+ 'C:\\Program Files\\Python314\\Lib',
+ 'C:\\Program Files\\Python314',
+ 'D:\\python\\venv',
+ 'D:\\python\\venv\\Lib\\site-packages',
+ 'd:\\astro\\programy\\AstroTools\\siril_prereg']
+604 INFO: checking Analysis
+605 INFO: Building Analysis because Analysis-00.toc is non existent
+605 INFO: Looking for Python shared library...
+605 INFO: Using Python shared library: C:\Program Files\Python314\python314.dll
+605 INFO: Running Analysis Analysis-00.toc
+605 INFO: Target bytecode optimization level: 0
+605 INFO: Initializing module dependency graph...
+606 INFO: Initializing module graph hook caches...
+626 INFO: Analyzing modules for base_library.zip ...
+2386 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2843 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3515 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3531 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6903 INFO: Caching module dependency graph...
+6931 INFO: Analyzing d:\astro\programy\AstroTools\siril_prereg\siril_prereg.pyw
+6950 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+6951 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+7375 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7529 INFO: Processing module hooks (post-graph stage)...
+7532 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7540 INFO: Performing binary vs. data reclassification (927 entries)
+7872 INFO: Looking for ctypes DLLs
+7877 INFO: Analyzing run-time hooks ...
+7878 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+7883 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+7906 INFO: Creating base_library.zip...
+7923 INFO: Looking for dynamic libraries
+8111 INFO: Extra DLL search directories (AddDllDirectory): []
+8111 INFO: Extra DLL search directories (PATH): []
+8385 INFO: Warnings written to D:\python\build\siril_prereg\warn-siril_prereg.txt
+8400 INFO: Graph cross-reference written to D:\python\build\siril_prereg\xref-siril_prereg.html
+8433 INFO: checking PYZ
+8434 INFO: Building PYZ because PYZ-00.toc is non existent
+8434 INFO: Building PYZ (ZlibArchive) D:\python\build\siril_prereg\PYZ-00.pyz
+8535 INFO: Building PYZ (ZlibArchive) D:\python\build\siril_prereg\PYZ-00.pyz completed successfully.
+8549 INFO: checking PKG
+8549 INFO: Building PKG because PKG-00.toc is non existent
+8549 INFO: Building PKG (CArchive) siril_prereg.pkg
+9968 INFO: Building PKG (CArchive) siril_prereg.pkg completed successfully.
+9981 INFO: Bootloader D:\python\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+9981 INFO: checking EXE
+9981 INFO: Building EXE because EXE-00.toc is non existent
+9981 INFO: Building EXE from EXE-00.toc
+9981 INFO: Copying bootloader EXE to d:\astro\programy\AstroTools\siril_prereg.exe
+9986 INFO: Copying icon to EXE
+9989 INFO: Copying 0 resources to EXE
+9990 INFO: Embedding manifest in EXE
+9992 INFO: Appending PKG archive to EXE
+9999 INFO: Fixing EXE headers
+10081 INFO: Building EXE from EXE-00.toc completed successfully.
+10094 INFO: Build complete! The results are available in: d:\astro\programy\AstroTools
+===== Kompilacja zakonczona: 30.05.2026 19:36:24.58 ===== 

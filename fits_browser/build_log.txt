@@ -1,0 +1,234 @@
+===== Kompilacja rozpoczęta: 30.05.2026 18:22:52.57 ===== 
+Tworzenie srodowiska venv... 
+Instalacja pakietow... 
+Requirement already satisfied: pip in d:\python\venv\lib\site-packages (25.3)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pip
+  Using cached pip-26.1.1-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.1.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.3
+    Uninstalling pip-25.3:
+      Successfully uninstalled pip-25.3
+Successfully installed pip-26.1.1
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting matplotlib (from -r requirements.txt (line 1))
+  Downloading matplotlib-3.10.9-cp314-cp314-win_amd64.whl.metadata (52 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pandas (from -r requirements.txt (line 2))
+  Downloading pandas-3.0.3-cp314-cp314-win_amd64.whl.metadata (19 kB)
+Collecting numpy (from -r requirements.txt (line 3))
+  Using cached numpy-2.4.6-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+Collecting astropy (from -r requirements.txt (line 4))
+  Using cached astropy-7.2.0-cp311-abi3-win_amd64.whl.metadata (11 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting Pillow (from -r requirements.txt (line 5))
+  Downloading pillow-12.2.0-cp314-cp314-win_amd64.whl.metadata (9.0 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting contourpy>=1.0.1 (from matplotlib->-r requirements.txt (line 1))
+  Using cached contourpy-1.3.3-cp314-cp314-win_amd64.whl.metadata (5.5 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting cycler>=0.10 (from matplotlib->-r requirements.txt (line 1))
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting fonttools>=4.22.0 (from matplotlib->-r requirements.txt (line 1))
+  Downloading fonttools-4.63.0-cp314-cp314-win_amd64.whl.metadata (121 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting kiwisolver>=1.3.1 (from matplotlib->-r requirements.txt (line 1))
+  Downloading kiwisolver-1.5.0-cp314-cp314-win_amd64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib->-r requirements.txt (line 1))
+  Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pyparsing>=3 (from matplotlib->-r requirements.txt (line 1))
+  Using cached pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting python-dateutil>=2.7 (from matplotlib->-r requirements.txt (line 1))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting tzdata (from pandas->-r requirements.txt (line 2))
+  Downloading tzdata-2026.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting pyerfa>=2.0.1.1 (from astropy->-r requirements.txt (line 4))
+  Using cached pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl.metadata (5.9 kB)
+Collecting astropy-iers-data>=0.2025.10.27.0.39.10 (from astropy->-r requirements.txt (line 4))
+  Using cached astropy_iers_data-0.2026.5.25.1.14.13-py3-none-any.whl.metadata (3.4 kB)
+Collecting PyYAML>=6.0.0 (from astropy->-r requirements.txt (line 4))
+  Using cached pyyaml-6.0.3-cp314-cp314-win_amd64.whl.metadata (2.4 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib->-r requirements.txt (line 1))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading matplotlib-3.10.9-cp314-cp314-win_amd64.whl (8.3 MB)
+   ---------------------------------------- 8.3/8.3 MB 26.1 MB/s  0:00:00
+Downloading pandas-3.0.3-cp314-cp314-win_amd64.whl (9.9 MB)
+   ---------------------------------------- 9.9/9.9 MB 31.4 MB/s  0:00:00
+Using cached numpy-2.4.6-cp314-cp314-win_amd64.whl (12.5 MB)
+Using cached astropy-7.2.0-cp311-abi3-win_amd64.whl (6.4 MB)
+Downloading pillow-12.2.0-cp314-cp314-win_amd64.whl (7.2 MB)
+   ---------------------------------------- 7.2/7.2 MB 36.9 MB/s  0:00:00
+Using cached astropy_iers_data-0.2026.5.25.1.14.13-py3-none-any.whl (2.0 MB)
+Using cached contourpy-1.3.3-cp314-cp314-win_amd64.whl (232 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.63.0-cp314-cp314-win_amd64.whl (2.3 MB)
+   ---------------------------------------- 2.3/2.3 MB 33.3 MB/s  0:00:00
+Downloading kiwisolver-1.5.0-cp314-cp314-win_amd64.whl (75 kB)
+Using cached packaging-26.2-py3-none-any.whl (100 kB)
+Using cached pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl (349 kB)
+Using cached pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pyyaml-6.0.3-cp314-cp314-win_amd64.whl (156 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading tzdata-2026.2-py2.py3-none-any.whl (349 kB)
+Installing collected packages: tzdata, six, PyYAML, pyparsing, Pillow, packaging, numpy, kiwisolver, fonttools, cycler, astropy-iers-data, python-dateutil, pyerfa, contourpy, pandas, matplotlib, astropy
+
+Successfully installed Pillow-12.2.0 PyYAML-6.0.3 astropy-7.2.0 astropy-iers-data-0.2026.5.25.1.14.13 contourpy-1.3.3 cycler-0.12.1 fonttools-4.63.0 kiwisolver-1.5.0 matplotlib-3.10.9 numpy-2.4.6 packaging-26.2 pandas-3.0.3 pyerfa-2.0.1.5 pyparsing-3.3.2 python-dateutil-2.9.0.post0 six-1.17.0 tzdata-2026.2
+Collecting pyinstaller
+  Using cached pyinstaller-6.20.0-py3-none-win_amd64.whl.metadata (8.5 kB)
+Collecting altgraph (from pyinstaller)
+  Using cached altgraph-0.17.5-py2.py3-none-any.whl.metadata (7.5 kB)
+Requirement already satisfied: packaging>=22.0 in D:\python\venv\Lib\site-packages (from pyinstaller) (26.2)
+Collecting pefile>=2022.5.30 (from pyinstaller)
+  Using cached pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+Collecting pyinstaller-hooks-contrib>=2026.4 (from pyinstaller)
+  Using cached pyinstaller_hooks_contrib-2026.5-py3-none-any.whl.metadata (16 kB)
+Collecting pywin32-ctypes>=0.2.1 (from pyinstaller)
+  Using cached pywin32_ctypes-0.2.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting setuptools>=42.0.0 (from pyinstaller)
+  Using cached setuptools-82.0.1-py3-none-any.whl.metadata (6.5 kB)
+Using cached pyinstaller-6.20.0-py3-none-win_amd64.whl (1.4 MB)
+Using cached pefile-2024.8.26-py3-none-any.whl (74 kB)
+Using cached pyinstaller_hooks_contrib-2026.5-py3-none-any.whl (457 kB)
+Using cached pywin32_ctypes-0.2.3-py3-none-any.whl (30 kB)
+Using cached setuptools-82.0.1-py3-none-any.whl (1.0 MB)
+Using cached altgraph-0.17.5-py2.py3-none-any.whl (21 kB)
+Installing collected packages: altgraph, setuptools, pywin32-ctypes, pefile, pyinstaller-hooks-contrib, pyinstaller
+
+Successfully installed altgraph-0.17.5 pefile-2024.8.26 pyinstaller-6.20.0 pyinstaller-hooks-contrib-2026.5 pywin32-ctypes-0.2.3 setuptools-82.0.1
+Budowanie aplikacji... 
+169 INFO: PyInstaller: 6.20.0, contrib hooks: 2026.5
+170 INFO: Python: 3.14.2
+191 INFO: Platform: Windows-10-10.0.19045-SP0
+191 INFO: Python environment: D:\python\venv
+192 INFO: wrote .\fits_browser.spec
+196 INFO: Module search paths (PYTHONPATH):
+['d:\\astro\\programy\\AstroTools\\fits_browser',
+ 'C:\\Program Files\\Python314\\python314.zip',
+ 'C:\\Program Files\\Python314\\DLLs',
+ 'C:\\Program Files\\Python314\\Lib',
+ 'C:\\Program Files\\Python314',
+ 'D:\\python\\venv',
+ 'D:\\python\\venv\\Lib\\site-packages',
+ 'd:\\astro\\programy\\AstroTools\\fits_browser']
+663 INFO: checking Analysis
+663 INFO: Building Analysis because Analysis-00.toc is non existent
+663 INFO: Looking for Python shared library...
+663 INFO: Using Python shared library: C:\Program Files\Python314\python314.dll
+663 INFO: Running Analysis Analysis-00.toc
+663 INFO: Target bytecode optimization level: 0
+663 INFO: Initializing module dependency graph...
+665 INFO: Initializing module graph hook caches...
+681 INFO: Analyzing modules for base_library.zip ...
+2747 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3228 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3508 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3525 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7093 INFO: Caching module dependency graph...
+7121 INFO: Analyzing d:\astro\programy\AstroTools\fits_browser\fits_browser.pyw
+7242 INFO: Processing standard module hook 'hook-pandas.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9341 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9393 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9400 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9438 INFO: Processing standard module hook 'hook-numpy.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9874 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+9875 INFO: SetuptoolsInfo: initializing cached setuptools info...
+10894 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11010 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15265 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'D:\\python\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17227 INFO: Processing standard module hook 'hook-pandas.io.formats.style.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20232 INFO: Processing standard module hook 'hook-pandas.plotting.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20295 INFO: Processing standard module hook 'hook-matplotlib.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20787 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20995 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21257 INFO: Processing standard module hook 'hook-matplotlib.backend_bases.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+21439 INFO: Processing standard module hook 'hook-PIL.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+21576 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+22045 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+22284 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+23637 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+23840 INFO: Processing standard module hook 'hook-matplotlib.pyplot.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+25120 INFO: Processing standard module hook 'hook-dateutil.py' from 'D:\\python\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+25225 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+29298 INFO: Processing standard module hook 'hook-sqlite3.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+29682 INFO: Processing standard module hook 'hook-pandas.io.clipboard.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+29868 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+30459 INFO: Processing standard module hook 'hook-astropy.py' from 'D:\\python\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+1409 WARNING: Failed to collect submodules for 'astropy.tests.figures' because importing 'astropy.tests.figures' raised: ModuleNotFoundError: No module named 'pytest'
+35126 INFO: Processing standard module hook 'hook-astropy_iers_data.py' from 'D:\\python\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+41720 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+41721 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+42310 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+42535 INFO: Processing module hooks (post-graph stage)...
+42748 INFO: Processing standard module hook 'hook-setuptools.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+42770 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+42816 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+42816 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+42831 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+42831 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+43439 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+43440 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+43453 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+43453 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+43676 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+43677 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+43713 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+43794 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+43794 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+44181 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+44181 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+44930 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+44931 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+55234 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+55235 INFO: Matplotlib backend selection method: automatic discovery of used backends
+55273 INFO: Discovered Matplotlib backend(s) via `matplotlib.use()` call in module 'astropy.conftest': ['Agg']
+55286 INFO: The following Matplotlib backends were discovered by scanning for `matplotlib.use()` calls: ['Agg']. If your backend of choice is not in this list, either add a `matplotlib.use()` call to your code, or configure the backend collection via hook options (see: https://pyinstaller.org/en/stable/hooks-config.html#matplotlib-hooks).
+55286 INFO: Selected matplotlib backends: ['Agg']
+55964 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+56480 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+56481 INFO: Processing standard module hook 'hook-tzdata.py' from 'D:\\python\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+57286 INFO: Performing binary vs. data reclassification (2205 entries)
+57893 INFO: Looking for ctypes DLLs
+57994 INFO: Analyzing run-time hooks ...
+58003 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+58008 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+58011 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+58015 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+58020 INFO: Including run-time hook 'pyi_rth_mplconfig.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+58023 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+58026 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+58040 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'D:\\python\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+58109 INFO: Creating base_library.zip...
+58127 INFO: Looking for dynamic libraries
+61230 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\python\\venv\\Lib\\site-packages\\numpy.libs', 'D:\\python\\venv\\Lib\\site-packages\\pandas.libs']
+61230 INFO: Extra DLL search directories (PATH): []
+62504 INFO: Warnings written to D:\python\build\fits_browser\warn-fits_browser.txt
+62688 INFO: Graph cross-reference written to D:\python\build\fits_browser\xref-fits_browser.html
+62778 INFO: checking PYZ
+62778 INFO: Building PYZ because PYZ-00.toc is non existent
+62778 INFO: Building PYZ (ZlibArchive) D:\python\build\fits_browser\PYZ-00.pyz
+63892 INFO: Building PYZ (ZlibArchive) D:\python\build\fits_browser\PYZ-00.pyz completed successfully.
+63984 INFO: checking PKG
+63984 INFO: Building PKG because PKG-00.toc is non existent
+63984 INFO: Building PKG (CArchive) fits_browser.pkg
+69708 INFO: Building PKG (CArchive) fits_browser.pkg completed successfully.
+69744 INFO: Bootloader D:\python\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+69744 INFO: checking EXE
+69744 INFO: Building EXE because EXE-00.toc is non existent
+69744 INFO: Building EXE from EXE-00.toc
+69747 INFO: Copying bootloader EXE to d:\astro\programy\AstroTools\fits_browser.exe
+69750 INFO: Copying icon to EXE
+69753 INFO: Copying 0 resources to EXE
+69753 INFO: Embedding manifest in EXE
+69756 INFO: Appending PKG archive to EXE
+69793 INFO: Fixing EXE headers
+70411 INFO: Building EXE from EXE-00.toc completed successfully.
+70447 INFO: Build complete! The results are available in: d:\astro\programy\AstroTools
+===== Kompilacja zakonczona: 30.05.2026 18:24:52.27 ===== 

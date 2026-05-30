@@ -1,0 +1,174 @@
+===== Kompilacja rozpoczęta: 30.05.2026 16:42:57.05 ===== 
+Tworzenie srodowiska venv... 
+Instalacja pakietow... 
+Requirement already satisfied: pip in d:\venv\lib\site-packages (25.3)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pip
+  Using cached pip-26.1.1-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.1.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.3
+    Uninstalling pip-25.3:
+      Successfully uninstalled pip-25.3
+Successfully installed pip-26.1.1
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting astropy (from -r requirements.txt (line 1))
+  Using cached astropy-7.2.0-cp311-abi3-win_amd64.whl.metadata (11 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting numpy>=1.24 (from astropy->-r requirements.txt (line 1))
+  Downloading numpy-2.4.6-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pyerfa>=2.0.1.1 (from astropy->-r requirements.txt (line 1))
+  Using cached pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl.metadata (5.9 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting astropy-iers-data>=0.2025.10.27.0.39.10 (from astropy->-r requirements.txt (line 1))
+  Downloading astropy_iers_data-0.2026.5.25.1.14.13-py3-none-any.whl.metadata (3.4 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting PyYAML>=6.0.0 (from astropy->-r requirements.txt (line 1))
+  Using cached pyyaml-6.0.3-cp314-cp314-win_amd64.whl.metadata (2.4 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting packaging>=22.0.0 (from astropy->-r requirements.txt (line 1))
+  Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Using cached astropy-7.2.0-cp311-abi3-win_amd64.whl (6.4 MB)
+Downloading astropy_iers_data-0.2026.5.25.1.14.13-py3-none-any.whl (2.0 MB)
+   ---------------------------------------- 2.0/2.0 MB 16.8 MB/s  0:00:00
+Downloading numpy-2.4.6-cp314-cp314-win_amd64.whl (12.5 MB)
+   ---------------------------------------- 12.5/12.5 MB 20.8 MB/s  0:00:00
+Downloading packaging-26.2-py3-none-any.whl (100 kB)
+Using cached pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl (349 kB)
+Using cached pyyaml-6.0.3-cp314-cp314-win_amd64.whl (156 kB)
+Installing collected packages: PyYAML, packaging, numpy, astropy-iers-data, pyerfa, astropy
+
+Successfully installed PyYAML-6.0.3 astropy-7.2.0 astropy-iers-data-0.2026.5.25.1.14.13 numpy-2.4.6 packaging-26.2 pyerfa-2.0.1.5
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pyinstaller
+  Downloading pyinstaller-6.20.0-py3-none-win_amd64.whl.metadata (8.5 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting altgraph (from pyinstaller)
+  Using cached altgraph-0.17.5-py2.py3-none-any.whl.metadata (7.5 kB)
+Requirement already satisfied: packaging>=22.0 in D:\venv\Lib\site-packages (from pyinstaller) (26.2)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pefile>=2022.5.30 (from pyinstaller)
+  Using cached pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pyinstaller-hooks-contrib>=2026.4 (from pyinstaller)
+  Downloading pyinstaller_hooks_contrib-2026.5-py3-none-any.whl.metadata (16 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pywin32-ctypes>=0.2.1 (from pyinstaller)
+  Using cached pywin32_ctypes-0.2.3-py3-none-any.whl.metadata (3.9 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting setuptools>=42.0.0 (from pyinstaller)
+  Using cached setuptools-82.0.1-py3-none-any.whl.metadata (6.5 kB)
+Downloading pyinstaller-6.20.0-py3-none-win_amd64.whl (1.4 MB)
+   ---------------------------------------- 1.4/1.4 MB 13.6 MB/s  0:00:00
+Using cached pefile-2024.8.26-py3-none-any.whl (74 kB)
+Downloading pyinstaller_hooks_contrib-2026.5-py3-none-any.whl (457 kB)
+Using cached pywin32_ctypes-0.2.3-py3-none-any.whl (30 kB)
+Using cached setuptools-82.0.1-py3-none-any.whl (1.0 MB)
+Using cached altgraph-0.17.5-py2.py3-none-any.whl (21 kB)
+Installing collected packages: altgraph, setuptools, pywin32-ctypes, pefile, pyinstaller-hooks-contrib, pyinstaller
+
+Successfully installed altgraph-0.17.5 pefile-2024.8.26 pyinstaller-6.20.0 pyinstaller-hooks-contrib-2026.5 pywin32-ctypes-0.2.3 setuptools-82.0.1
+Budowanie aplikacji... 
+169 INFO: PyInstaller: 6.20.0, contrib hooks: 2026.5
+170 INFO: Python: 3.14.2
+191 INFO: Platform: Windows-10-10.0.19045-SP0
+191 INFO: Python environment: D:\venv
+193 INFO: wrote .\symlink_maker.spec
+197 INFO: Module search paths (PYTHONPATH):
+['d:\\astro\\programy\\AstroTools\\symlink_maker',
+ 'C:\\Program Files\\Python314\\python314.zip',
+ 'C:\\Program Files\\Python314\\DLLs',
+ 'C:\\Program Files\\Python314\\Lib',
+ 'C:\\Program Files\\Python314',
+ 'D:\\venv',
+ 'D:\\venv\\Lib\\site-packages',
+ 'd:\\astro\\programy\\AstroTools\\symlink_maker']
+656 INFO: checking Analysis
+656 INFO: Building Analysis because Analysis-00.toc is non existent
+656 INFO: Looking for Python shared library...
+656 INFO: Using Python shared library: C:\Program Files\Python314\python314.dll
+656 INFO: Running Analysis Analysis-00.toc
+656 INFO: Target bytecode optimization level: 0
+656 INFO: Initializing module dependency graph...
+658 INFO: Initializing module graph hook caches...
+675 INFO: Analyzing modules for base_library.zip ...
+2473 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3034 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3447 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3463 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6694 INFO: Caching module dependency graph...
+6727 INFO: Analyzing d:\astro\programy\AstroTools\symlink_maker\symlink_maker.pyw
+6756 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+6757 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+7246 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7412 INFO: Processing standard module hook 'hook-astropy.py' from 'D:\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+944 WARNING: Failed to collect submodules for 'astropy.visualization.wcsaxes' because importing 'astropy.visualization.wcsaxes' raised: ModuleNotFoundError: No module named 'matplotlib'
+11403 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11404 INFO: SetuptoolsInfo: initializing cached setuptools info...
+12064 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12153 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12161 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12323 INFO: Processing standard module hook 'hook-numpy.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+13208 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+13334 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+14705 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17295 INFO: Processing standard module hook 'hook-astropy_iers_data.py' from 'D:\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+23508 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+23898 INFO: Processing module hooks (post-graph stage)...
+24112 INFO: Processing standard module hook 'hook-setuptools.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+24134 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+24180 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+24180 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+24195 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+24195 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+24813 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+24815 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+24828 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+24828 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+25053 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+25053 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+25091 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+25172 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+25173 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+25553 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+25553 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+26305 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+26306 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+36872 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+36891 INFO: Performing binary vs. data reclassification (1390 entries)
+37426 INFO: Looking for ctypes DLLs
+37504 INFO: Analyzing run-time hooks ...
+37511 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+37516 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+37520 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+37524 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+37527 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'D:\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+37572 INFO: Creating base_library.zip...
+37590 INFO: Looking for dynamic libraries
+39428 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\venv\\Lib\\site-packages\\numpy.libs']
+39428 INFO: Extra DLL search directories (PATH): []
+40135 INFO: Warnings written to D:\build\symlink_maker\warn-symlink_maker.txt
+40265 INFO: Graph cross-reference written to D:\build\symlink_maker\xref-symlink_maker.html
+40331 INFO: checking PYZ
+40331 INFO: Building PYZ because PYZ-00.toc is non existent
+40331 INFO: Building PYZ (ZlibArchive) D:\build\symlink_maker\PYZ-00.pyz
+41053 INFO: Building PYZ (ZlibArchive) D:\build\symlink_maker\PYZ-00.pyz completed successfully.
+41095 INFO: checking PKG
+41095 INFO: Building PKG because PKG-00.toc is non existent
+41095 INFO: Building PKG (CArchive) symlink_maker.pkg
+44568 INFO: Building PKG (CArchive) symlink_maker.pkg completed successfully.
+44590 INFO: Bootloader D:\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+44590 INFO: checking EXE
+44590 INFO: Building EXE because EXE-00.toc is non existent
+44590 INFO: Building EXE from EXE-00.toc
+44590 INFO: Copying bootloader EXE to d:\astro\programy\AstroTools\dist\symlink_maker.exe
+44595 INFO: Copying icon to EXE
+44598 INFO: Copying 0 resources to EXE
+44598 INFO: Embedding manifest in EXE
+44601 INFO: Appending PKG archive to EXE
+44622 INFO: Fixing EXE headers
+44802 INFO: Building EXE from EXE-00.toc completed successfully.
+44824 INFO: Build complete! The results are available in: d:\astro\programy\AstroTools\dist
+===== Kompilacja zakonczona: 30.05.2026 16:44:20.50 ===== 

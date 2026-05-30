@@ -1,0 +1,10 @@
+matplotlib
+pandas
+numpy
+astropy
+Pillow
+cupy-cuda12x
+nvidia-cuda-runtime-cu12
+nvidia-cuda-nvrtc-cu12
+nvidia-cuda-cccl-cu12
+nvidia-cudnn-cu12
